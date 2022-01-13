@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+   min-height:100vh;
+    width:100vw;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    width:100vw;
+    height:fit-content;
+    background-color:#218380;
+    font-size:18px;
+    color:#ffffff;
+    
+}
+.content{
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+    width:90vw;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.container{
+min-height:calc(fit-content+100px);
+ width:80%;
+box-shadow:10px 5px 10px rgba(0,0,0,0.4);
+border:2px solid rgba(0,0,0,0.4);
+display:flex;
+justify-content: center;
+align-items:flex-start;
+flex-direction: column;
+flex-wrap: nowrap;
+overflow: hidden;
+}
+main{
+    display:flex;
+    justify-content:center;
+   flex-wrap: nowrap;
+   height:90vh;
+width:100vw;
+ align-items:center;
+}
+h2{
+    margin:20px;
+    
+    
+}
+#submit{
+    background-color:#218380;
+    
+   padding:10px;
+  margin:20px;
+border-radius:7px;
+}
+p{
+    margin:10px 20px;
+}
+.option-conatiner{
+   
+    width:80%;
+    height:70%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:20px;
+}
+.options{
+ background-color:#218380;
+ width:100%;
+ height:fit-content;
+margin-bottom:10px;
+ border-radius:10px;
+ color:white;
+ padding:10px;
+}
+.result{
+font-size:20px;
+font-weight:800;
+}
+.input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    margin-top:10px;
+}
+.intials{
+    flex-wrap:wrap;
+
+}
+#submited{
+    background-color: #218380;
+    padding:10px;
+    border-radius: 5px;
+    height:20px;
+}
+#submited:hover{
+    background-color: aquamarine;
+}
+#input{
+    height:35px;
+    margin:10px 20px;
+}
+li{
+    margin-left:40px;
+}
+.btn{
+    padding:10px;
+    margin:20px;
+    background-color: #218380;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media  and ( max-width:450px ) {
+    
+    .container{
+        font-size:2vw;
+    }
+}
